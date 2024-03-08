@@ -18,3 +18,9 @@ Route::get ( 'greeting', function () {
     return 'Hello laravel';
     
     } );
+
+Route::match (['get','post'], '/', function () {
+
+return 'Hello laravel';
+        
+} );
