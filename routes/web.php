@@ -24,3 +24,8 @@ Route::match (['get','post'], '/', function () {
 return 'Hello laravel';
         
 } );
+
+Route::any ('foo', function () {
+    return 'Hello laravel';
+    
+    } );
