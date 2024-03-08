@@ -30,6 +30,4 @@ Route::any ('foo', function () {
     
     } );
 
-    Route::redirect('/here', '/there');
-
     Route::redirect('/here', '/there', 301);
