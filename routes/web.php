@@ -29,3 +29,5 @@ Route::any ('foo', function () {
     return 'Hello laravel';
     
     } );
+
+    Route::redirect('/here', '/there');
